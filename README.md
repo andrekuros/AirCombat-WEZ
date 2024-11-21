@@ -75,12 +75,11 @@ The dataset includes key input features that influence missile performance, deri
 | Target Radial                   | `φ_t`             | -60           | 60            | degree          | Angular position of the target relative to the shooter.                                             |
 | Target Altitude Difference      | `Δh_t`            | -5,000        | 5,000         | ft              | Difference in altitude between the shooter and target (`h_s - h_t`).                                |
 | Relative Heading to Radial      | `Δφ_t`            | -180          | 180           | degree          | Relative angle combining the target's radial and headings (`θ_t - θ_s - φ_t`).                      |
-| Sine of Relative Heading        | `sin(Δφ_t)`       | -1            | 1             | -               | Sine transformation of `Δφ_t` to simplify learning in regression models.                            |
-| Cosine of Relative Heading      | `cos(Δφ_t)`       | -1            | 1             | -               | Cosine transformation of `Δφ_t` to simplify learning in regression models.                          |
+
 
 ### Target Outputs
 The dataset contains two primary outputs for each engagement scenario:
-- **Maximum Weapon Engagement Range (`R_max`)**: The furthest distance at which a missile can successfully engage the target.
+- **Maximum Range for Weapon Engagement Zone (`R_max`)**: The furthest distance at which a missile can successfully engage the target.
 - **No Escape Zone (`R_nez`)**: The range within which the target cannot evade the missile, regardless of maneuvers.
 
 ### Data Generation Process
