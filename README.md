@@ -3,10 +3,15 @@
 This repository contains the code, data, and implementation details for the paper:
 
 ```bibtex
-@article{kuroswiski4WEZ,
-  title={Optimized Prediction of Weapon Effectiveness in BVR Air Combat Scenarios Using Enhanced Regression Models},
-  author={Kuroswiski, Andre R. and Wu, Annie S. and Passaro, Angelo},  
-}
+@ARTICLE{kuroswiski2025wez,
+  author={Kuroswiski, Andre R. and Wu, Annie S. and Passaro, Angelo},
+  journal={IEEE Access}, 
+  title={Optimized Prediction of Weapon Effectiveness in BVR Air Combat Scenarios Using Enhanced Regression Models}, 
+  year={2025},
+  volume={13},  
+  pages={21759-21772},
+  doi={10.1109/ACCESS.2025.3535555}}
+
 ```
 Status: *In Revision*
 
