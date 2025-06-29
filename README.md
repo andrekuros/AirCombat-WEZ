@@ -13,7 +13,6 @@ This repository contains the code, data, and implementation details for the pape
   doi={10.1109/ACCESS.2025.3535555}}
 
 ```
-Status: *In Revision*
 
 ## Overview
 This project provides the implementation for predicting the **Weapon Engagement Zone (WEZ)** in **Beyond-Visual-Range (BVR)** air combat scenarios, based on the methods and results presented in the referenced paper. Accurate WEZ predictions are critical for decision-making in air combat and the development of efficient autonomous systems.
